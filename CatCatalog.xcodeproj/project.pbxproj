@@ -24,6 +24,9 @@
 		FDB649212D51458C00BCC621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB6491B2D51458C00BCC621 /* Assets.xcassets */; };
 		FDB649222D51458C00BCC621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB649192D51458C00BCC621 /* Preview Assets.xcassets */; };
 		FDC331FB2D53E842005DB37A /* CatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC331FA2D53E842005DB37A /* CatCardView.swift */; };
+		FDC331FD2D540899005DB37A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC331FC2D540899005DB37A /* CircleImage.swift */; };
+		FDC331FF2D5408F8005DB37A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC331FE2D5408F8005DB37A /* MapView.swift */; };
+		FDC332012D540931005DB37A /* CatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC332002D540931005DB37A /* CatDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		FDB6491C2D51458C00BCC621 /* CatCatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCatalogApp.swift; sourceTree = "<group>"; };
 		FDB6491D2D51458C00BCC621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDC331FA2D53E842005DB37A /* CatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCardView.swift; sourceTree = "<group>"; };
+		FDC331FC2D540899005DB37A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FDC331FE2D5408F8005DB37A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FDC332002D540931005DB37A /* CatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 			children = (
 				FDB6491D2D51458C00BCC621 /* ContentView.swift */,
 				FDC331FA2D53E842005DB37A /* CatCardView.swift */,
+				FDC331FC2D540899005DB37A /* CircleImage.swift */,
+				FDC331FE2D5408F8005DB37A /* MapView.swift */,
+				FDC332002D540931005DB37A /* CatDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,9 +338,12 @@
 				FD8E946F2D52C64A008DD34A /* CatBreed.swift in Sources */,
 				FDC331FB2D53E842005DB37A /* CatCardView.swift in Sources */,
 				FD8E94742D52D1DB008DD34A /* CatClient.swift in Sources */,
+				FDC331FD2D540899005DB37A /* CircleImage.swift in Sources */,
 				FDB6491F2D51458C00BCC621 /* ContentView.swift in Sources */,
 				FDB649202D51458C00BCC621 /* CatCatalogApp.swift in Sources */,
+				FDC332012D540931005DB37A /* CatDetail.swift in Sources */,
 				FD8E94532D529F3F008DD34A /* Cat.swift in Sources */,
+				FDC331FF2D5408F8005DB37A /* MapView.swift in Sources */,
 				FD8E94722D52D15E008DD34A /* HTTPDataDownloader.swift in Sources */,
 				FD8E947A2D52D4E4008DD34A /* CatsProvider.swift in Sources */,
 				FD8E94762D52D33E008DD34A /* TestDownloader.swift in Sources */,

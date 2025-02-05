@@ -18,8 +18,13 @@ struct ContentView: View {
             ScrollView {
                 LazyVStack(spacing: 16) {
                     ForEach(provider.cats) { cat in
-                        CatCardView(cat: cat)
-                            .transition(.slide)
+                        
+                        NavigationLink {
+                            CatDetail(cat: cat)
+                        } label: {
+                            CatCardView(cat: cat)
+                                .transition(.slide)
+                        }
                     }
                 }
                 .padding()
