@@ -23,6 +23,7 @@
 		FDB649202D51458C00BCC621 /* CatCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6491C2D51458C00BCC621 /* CatCatalogApp.swift */; };
 		FDB649212D51458C00BCC621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB6491B2D51458C00BCC621 /* Assets.xcassets */; };
 		FDB649222D51458C00BCC621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB649192D51458C00BCC621 /* Preview Assets.xcassets */; };
+		FDC331FB2D53E842005DB37A /* CatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC331FA2D53E842005DB37A /* CatCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		FDB6491B2D51458C00BCC621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB6491C2D51458C00BCC621 /* CatCatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCatalogApp.swift; sourceTree = "<group>"; };
 		FDB6491D2D51458C00BCC621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDC331FA2D53E842005DB37A /* CatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				FDB6491D2D51458C00BCC621 /* ContentView.swift */,
+				FDC331FA2D53E842005DB37A /* CatCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8E946F2D52C64A008DD34A /* CatBreed.swift in Sources */,
+				FDC331FB2D53E842005DB37A /* CatCardView.swift in Sources */,
 				FD8E94742D52D1DB008DD34A /* CatClient.swift in Sources */,
 				FDB6491F2D51458C00BCC621 /* ContentView.swift in Sources */,
 				FDB649202D51458C00BCC621 /* CatCatalogApp.swift in Sources */,
